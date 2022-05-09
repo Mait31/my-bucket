@@ -3,8 +3,8 @@
     "description": "Powerful and easy to use e-book manager",
     "homepage": "https://calibre-ebook.com",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/kovidgoyal/calibre/releases/download/v5.42.0/calibre-64bit-5.42.0.msi",
-    "hash": "8c1e0108f0f29d45434bbda8837793081988089c9fe53690d79b18fa02c1f839",
+    "url": "https://github.com/kovidgoyal/calibre/releases/download/v5.42.0/calibre-portable-installer-5.42.0.exe",
+    "hash": "6d4ac7699c121215c7aa5286199f201da09ed13a6a66499110f0ef576860d17e",
     "installer": {
         "args": "\"$dir\""
     },
@@ -58,6 +58,6 @@
         "github": "https://github.com/kovidgoyal/calibre"
     },
     "autoupdate": {
-        "url": "https://github.com/kovidgoyal/calibre/releases/download/v$version/calibre-64bit-$version.msi"
+        "url": "https://github.com/kovidgoyal/calibre/releases/download/v$version/calibre-portable-installer-$version.exe"
     }
 }
