@@ -5,4 +5,5 @@
     "architecture": "x86",
     "url": "https://getquicker.net/download/item/win_x64",
     "sha256": "f0315192a0d551aada976109efbdfa0af93cee33eb8a98d27ceb85635a36fc1c"
+    "installer": "msi"
 }
