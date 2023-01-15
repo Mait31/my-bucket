@@ -9,7 +9,7 @@
     "extras": [
         {
             "name": "install",
-            "command": "msiexec /i Quicker.x64.1.35.42.0.msi /qn /norestart"
+            "command": "msiexec /i quicker.msi /qn /norestart"
         }
     ]
 }
