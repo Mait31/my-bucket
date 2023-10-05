@@ -2,6 +2,7 @@
   "name": "besttrace",
   "version": "3.8.0",
   "homepage": "https://www.ipip.net/",
+  "license": "Unknown",
   "architecture": "x86",
   "url": "https://cdn.ipip.net/17mon/besttrace.exe#dl.7z"
 }
