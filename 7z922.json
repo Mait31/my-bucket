@@ -1,0 +1,8 @@
+{
+  "name": "7z922",
+  "version": "3.8.0",
+  "license": "Unknown",
+  "architecture": "x86",
+  "innosetup": true,
+  "url": "http://downloads.sourceforge.net/project/sevenzip/7-Zip/9.22/7z922-x64.msi"
+}
