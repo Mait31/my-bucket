@@ -2,7 +2,5 @@
   "name": "besttrace",
   "version": "1.39.43.0",
   "homepage": "https://getquicker.net/",
-  "architecture": "x86",
-  "innosetup": true,
   "url": "https://getquicker.net/download/item/fast_x64"
 }
