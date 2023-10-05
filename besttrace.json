@@ -4,6 +4,5 @@
   "homepage": "https://www.ipip.net/",
   "license": "Unknown",
   "architecture": "x86",
-  "innosetup": true,
   "url": "https://cdn.ipip.net/17mon/besttrace.exe"
 }
