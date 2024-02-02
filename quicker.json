@@ -3,7 +3,5 @@
     "version": "1.39",
     "homepage": "https://getquicker.net/",
     "url": "https://getquicker.net/download/item/fast_x86",
-    "pre_install": [
-        "Expand-7zipArchive \"$dir\\`$fname\" \"$dir\" -Removal"
-    ]
+	"extract_dir": "Quicker.x86.1.41.5.0.msi"
 }
