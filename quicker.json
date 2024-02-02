@@ -1,6 +1,24 @@
 {
-  "name": "besttrace",
-  "version": "1.39",
-  "homepage": "https://getquicker.net/",
-  "url": "https://getquicker.net/download/item/fast_x86"
+    "name": "quicker",
+    "version": "1.39",
+    "homepage": "https://getquicker.net/",
+    "url": "https://getquicker.net/download/item/fast_x86",
+    "installer": {
+        "script": [
+            "Expand-7zipArchive \"$dir\\`$fname\" \"$dir\"",
+            "Remove-Item \"$dir\\`$fname\""
+        ]
+    },
+    "architecture": {
+        "64bit": {
+            "installer": {
+                "script": "Start-Process msiexec -Wait -ArgumentList '/a \"$dir\\example.msi\" /qn TARGETDIR=\"$dir\"'"
+            }
+        },
+        "32bit": {
+            "installer": {
+                "script": "Start-Process msiexec -Wait -ArgumentList '/a \"$dir\\example.msi\" /qn TARGETDIR=\"$dir\"'"
+            }
+        }
+    }
 }
