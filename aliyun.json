@@ -9,13 +9,7 @@
             "hash": "115a0aac5b4e9640f811c6761e100383c98743b3591dbd629d45ac7f39f517bc"
         }
     },
-    "bin": "aliyun.exe",
-     "shortcuts": [
-        [
-            "aliyun.exe",
-            "阿里云"
-        ]
-    ],   
+    "bin": "aliyun.exe",  
     "checkver": "github",
     "autoupdate": {
         "architecture": {
