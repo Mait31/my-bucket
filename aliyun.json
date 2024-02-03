@@ -11,7 +11,6 @@
     },
     "bin": "aliyun.exe",  
     "checkver": "github",
-    "innosetup": true,
     "autoupdate": {
         "architecture": {
             "64bit": {
